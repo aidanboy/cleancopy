@@ -5,9 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CleanCopy</title>
     <link rel="stylesheet" href="style.css">
+    <!-- Only import fonts in CSS for tidiness -->
 </head>
 <body>
-    <h1>Welcome to CleanCopy</h1>
-    <p>This is a basic HTML website.</p>
+    <main class="container">
+        <div class="icon-placeholder" aria-label="App icon placeholder">need<br>icon</div>
+        <section class="hero">
+            <h1>CleanCopy.<span class="subtitle"> Paste anywhere.</span></h1>
+            <div class="desc">A lightweight Mac utility that instantly strips formatting off any text you copy, with a familiar command.</div>
+            <button class="download-btn" aria-label="Download CleanCopy for Mac">
+                <span>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <path d="M14 10V12.6667C14 13.0203 13.8595 13.3594 13.6095 13.6095C13.3594 13.8595 13.0203 14 12.6667 14H3.33333C2.97971 14 2.64057 13.8595 2.39052 13.6095C2.14048 13.3594 2 13.0203 2 12.6667V10M4.66667 6.66667L8 10M8 10L11.3333 6.66667M8 10V2" stroke="#F5F5F5" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span> Download for Mac
+            </button>
+        </section>
+        <section>
+            <section>
+            <h3 class="section-title">How it works</h3>
+            <ol class="how-list">
+                <li>Highlight your text</li>
+                <li>Hit <span class="kbd">⌘C</span> + <span class="kbd">C</span></li>
+                <li>Paste anywhere</li>
+            </ol>
+            </section>
+            <section>
+            <h3 class="section-title">Why</h3>
+            <ul class="why-list">
+                <li>Stop fighting formatting when pasting into docs, email, or chat.</li>
+                <li>Works everywhere on Mac, system-wide.</li>
+                <li>Lightning-fast: runs silently in the background.</li>
+                <li>One shortcut you’ll never forget.</li>
+            </ul>
+            </section>
+        </section>
+        <footer>
+            <h3 class="section-title">Vibed by</h3>
+            <div class="authors">
+                <a href="#">Aidan</a>, <a href="#">Drew</a> & <a href="#">Andrew</a>
+            </div>
+        </footer>
+    </main>
 </body>
 </html>
