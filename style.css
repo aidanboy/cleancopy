@@ -42,19 +42,19 @@ section h1 {
     color: #222;
     font-size: 1rem;
 }
-h1, h3 {
+h1, h2 {
     font-size: 1.25rem;
     font-weight: normal;
     line-height: 24px;
     margin: 0;
 }
-h3 {
+h2 {
     font-size: 0.8rem;
     font-weight: 300;
     line-height: 20px;
 }
 .subtitle {
-    color: #888;
+    color: #555555;
 }
 .desc {
     color: #222;
@@ -74,7 +74,7 @@ h3 {
 }
 .section-title {
     font-family: 'JetBrains Mono', monospace;
-    color: #888;
+    color: #555555;
     text-transform: uppercase;
 }
 ol, ul {
