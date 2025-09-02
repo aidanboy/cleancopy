@@ -102,6 +102,6 @@ ol, ul {
 }
 @media (max-width: 400px) {
     .container {
-        padding: 16px 10px;
+        padding: 16px 24px;
     }
 }
