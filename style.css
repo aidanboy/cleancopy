@@ -11,7 +11,7 @@ body {
 .container {
     max-width: 380px;
     margin: 0 auto;
-    padding: 32px 16px;
+    padding: 48px 24px;
     display: flex;
     flex-direction: column;
     gap: 48px;
@@ -21,7 +21,6 @@ section {
     flex-direction: column;
     gap: 8px;
 }
-/* Explicitly set h1 size within sections */
 section h1 {
     font-size: 1.25rem;
     font-weight: normal;
@@ -32,15 +31,8 @@ section h1 {
     gap: 16px;
 }
 .icon-placeholder {
-    width: 100px;
-    height: 100px;
-    background: #f7f7f7;
-    border-radius: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #222;
-    font-size: 1rem;
+    width: 66px;
+    height: 66px;
 }
 h1, h2 {
     font-size: 1.25rem;
@@ -118,6 +110,7 @@ a:focus {
 }
 @media (max-width: 400px) {
     .container {
-        padding: 16px 24px;
+        padding: 24px;
+        gap: 24px;
     }
 }
